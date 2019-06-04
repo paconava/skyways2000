@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>nbproject/src/Headers/CubemapTexture.h</itemPath>
+      <itemPath>nbproject/src/Headers/InputManager.h</itemPath>
+      <itemPath>nbproject/src/Headers/Map.h</itemPath>
+      <itemPath>nbproject/src/Headers/Mesh.h</itemPath>
+      <itemPath>nbproject/src/Headers/Model.h</itemPath>
+      <itemPath>nbproject/src/Headers/Shader.h</itemPath>
+      <itemPath>nbproject/src/Headers/Sphere.h</itemPath>
+      <itemPath>nbproject/src/Headers/Texture.h</itemPath>
+      <itemPath>nbproject/src/Headers/TimeManager.h</itemPath>
+      <itemPath>nbproject/src/Headers/collision.h</itemPath>
+      <itemPath>nbproject/src/Headers/definition.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>../Shaders/cubemapTexture.fs</itemPath>
+      <itemPath>../Shaders/cubemapTexture.vs</itemPath>
+      <itemPath>../Shaders/dashboard.fs</itemPath>
+      <itemPath>../Shaders/dashboard.vs</itemPath>
+      <itemPath>../Shaders/envRefCubemapTexture.fs</itemPath>
+      <itemPath>../Shaders/envRefCubemapTexture.vs</itemPath>
+      <itemPath>../Shaders/lampShader.fs</itemPath>
+      <itemPath>../Shaders/lampShader.vs</itemPath>
+      <itemPath>../Shaders/loadModelLighting.fs</itemPath>
+      <itemPath>../Shaders/loadModelLighting.vs</itemPath>
+      <itemPath>../Shaders/mapTexture.fs</itemPath>
+      <itemPath>../Shaders/mvpTexture.vs</itemPath>
+      <itemPath>../Shaders/particles.fs</itemPath>
+      <itemPath>../Shaders/particles.vs</itemPath>
+      <itemPath>../Shaders/textShader.fs</itemPath>
+      <itemPath>../Shaders/textShader.vs</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>nbproject/src/CubemapTexture.cpp</itemPath>
+      <itemPath>nbproject/src/InputManager.cpp</itemPath>
+      <itemPath>nbproject/src/Map.cpp</itemPath>
+      <itemPath>nbproject/src/Mesh.cpp</itemPath>
+      <itemPath>nbproject/src/Model.cpp</itemPath>
+      <itemPath>nbproject/src/Shader.cpp</itemPath>
+      <itemPath>nbproject/src/Sphere.cpp</itemPath>
+      <itemPath>nbproject/src/Texture.cpp</itemPath>
+      <itemPath>nbproject/src/TimeManager.cpp</itemPath>
+      <itemPath>nbproject/src/main.cpp</itemPath>
+      <itemPath>nbproject/src/map1.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <stripSymbols>true</stripSymbols>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>nbproject/external/glfw/include</pElem>
+            <pElem>nbproject/external/FreeImage/include</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <commandLine>-lGLEW -lGL -lglfw -lalut -lassimp -lopenal -lfreetype -lfreeimage -lX11</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../Shaders/cubemapTexture.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/cubemapTexture.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/dashboard.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/dashboard.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/envRefCubemapTexture.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/envRefCubemapTexture.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/lampShader.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/lampShader.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/loadModelLighting.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/loadModelLighting.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/mapTexture.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/mvpTexture.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/particles.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/particles.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/textShader.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/textShader.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/CubemapTexture.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool>
+          <architecture>2</architecture>
+        </ccTool>
+      </item>
+      <item path="nbproject/src/Headers/CubemapTexture.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/InputManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Sphere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/TimeManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/collision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/definition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/InputManager.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="nbproject/src/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Mesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/TimeManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/map1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../Shaders/cubemapTexture.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/cubemapTexture.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/dashboard.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/dashboard.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/envRefCubemapTexture.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/envRefCubemapTexture.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/lampShader.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/lampShader.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/loadModelLighting.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/loadModelLighting.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/mapTexture.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/mvpTexture.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/particles.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/particles.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/textShader.fs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Shaders/textShader.vs" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/CubemapTexture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/CubemapTexture.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/InputManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Map.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Mesh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Sphere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/TimeManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/collision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/Headers/definition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="nbproject/src/InputManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Mesh.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/TimeManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="nbproject/src/map1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
